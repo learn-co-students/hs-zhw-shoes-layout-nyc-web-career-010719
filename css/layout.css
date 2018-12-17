@@ -39,7 +39,7 @@
 }
 
 [class*="col-"] {
-  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .clearfix:after {
