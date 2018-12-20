@@ -22,6 +22,42 @@
   clear: both;
 }
 
+#col-1 {
+  float: left;
+  width: 32%;
+}
+
+#col-2 {
+  float: left;
+  width: 66%;
+}
+
+.second {
+  margin-left: 2%;
+}
+
+.container {
+  display: table
+  width: 100%
+}
+
+.col {
+  display:table-cell
+}
 /* Positioning Classes */
 
+#social {
+  position: fixed;
+  top: 200px;
+  right: 0px;
+  width: 40px;
+  z-index: 1;
+}
 
+#social a {
+  display: block;
+}
+
+.featured {
+  margin-bottom: 2%;
+}
