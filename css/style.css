@@ -138,7 +138,54 @@ iframe {
 
 /* BEGIN COLUMNS FORMATTING */
 
+table, td {
+  border: 0;
+}
 
+.two-columns #grass {
+  vertical-align: top;
+  padding-left: 0;
+  padding-right: 3px;
+  width: 638px;
+}
+
+.two-columns #archive {
+  vertical-align: top;
+  width: 316px;
+  padding-right: 0;
+  padding-left: 3px;
+}
+
+#grass section, #archive section {
+  height: 600px;
+  overflow: hidden;
+}
+
+.three-columns #lady {
+  vertical-align: top;
+  width: 316px;
+  padding-left: 0;
+  padding-right: 3px;
+}
+
+.three-columns #skaters {
+  vertical-align: top;
+  width: 316px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.three-columns #bluestar {
+  vertical-align: top;
+  width: 316px;
+  padding-right: 0;
+  padding-left: 3px;
+}
+
+#lady section, #skaters section, #bluestar section {
+  height: 350px;
+  overflow: hidden;
+}
 
 /* END COLUMNS FORMATTING */
 
