@@ -138,39 +138,7 @@ iframe {
 
 /* BEGIN COLUMNS FORMATTING */
 
-.three-columns {
-  column-count: 3;
-  column-gap: 1em;
-  display: table;
-}
 
-.each-column {
-  width: 60em;
-  display: table-cell;
-}
-
-.two-columns {
-  column-count: 2;
-  column-gap: 1em;
-  margin-bottom: 1em;
-  width: 100%;
-  height: 38em;
-}
-
-.wide-column {
-  width: 39.667em;
-  break-after: column;
-}
-
-.skinny-column {
-  width: 19.333em;
-  position: relative;
-  float: right;
-}
-
-.some-shoes {
-  margin-top: 1em;
-}
 
 /* END COLUMNS FORMATTING */
 
